@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:weightSum="1"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgLogin"
+        android:background="@drawable/mobile_dl"
+        android:contentDescription="@string/descripcion_de_imagen"/>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/EdtUsuario"
+        android:hint="@string/title_edit_user"/>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/EdtContraseña"
+        android:hint="@string/title_edit_password"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/title_btn_ingresar"
+        android:id="@+id/btnIngresar"
+        android:onClick="enviarMenuPrincipal"
+        style="@style/btn_style1"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/title_btn_salir"
+        android:id="@+id/btnSalir"
+        style="@style/btn_style1"/>
+</LinearLayout>

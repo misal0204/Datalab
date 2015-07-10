@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Datalab</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Configuración</string>
+    <string name="action_share">Compartir</string>
+    <string name="action_sinc">Sincronización</string>
+    <string name="title_activity_menu__principal">DataLab Mobile</string>
+
+    <!-- Layout de Login -->
+    <string name="title_edit_user">Usuario: datalab@user</string>
+    <string name="title_edit_password">Contraseña: *****</string>
+    <string name="title_btn_ingresar">Ingresar</string>
+    <string name="title_btn_salir">Salir</string>
+    <string name="title_footer_login">ITMM El Salvador</string>
+    <string name="descripcion_de_imagen">Imagen principal de login</string>
+</resources>
+
